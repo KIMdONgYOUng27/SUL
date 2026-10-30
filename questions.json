@@ -1,6 +1,44 @@
 {
-  "schema": "sai-questions-v1",
+  "schema": "sai-questions-v2",
   "label": "한국 관광 경험 인터뷰",
+  "pages": [
+    {
+      "id": "opening",
+      "name": "시작 · 여행 이야기",
+      "icon": "◌",
+      "branching": false
+    },
+    {
+      "id": "taxi",
+      "name": "이동 · 택시",
+      "icon": "↗",
+      "branching": true
+    },
+    {
+      "id": "translation",
+      "name": "소통 · 번역",
+      "icon": "文",
+      "branching": true
+    },
+    {
+      "id": "cash",
+      "name": "결제 · 현금과 환전",
+      "icon": "₩",
+      "branching": true
+    },
+    {
+      "id": "waste",
+      "name": "쓰레기 처리",
+      "icon": "↺",
+      "branching": true
+    },
+    {
+      "id": "closing",
+      "name": "마무리",
+      "icon": "✓",
+      "branching": false
+    }
+  ],
   "questions": {
     "opening:intro": {
       "ko": "한국을 여행하면서 일상적인 일을 어떻게 경험하셨는지 듣고 싶습니다. 좋았던 경험과 예상과 달랐던 경험 모두 편하게 말씀해주세요.",
@@ -448,10 +486,296 @@
       "probes": []
     }
   },
+  "order": {
+    "opening": [
+      "opening:intro",
+      "opening:day",
+      "opening:context"
+    ],
+    "taxi": [
+      "taxi:entry",
+      "taxi:scene",
+      "taxi:friction",
+      "taxi:action",
+      "taxi:outcome",
+      "taxi:alternative",
+      "taxi:reason",
+      "taxi:consider",
+      "taxi:alternative-result",
+      "taxi:delegated",
+      "taxi:delegation-reason",
+      "taxi:delegation-outcome",
+      "taxi:unconfirmed"
+    ],
+    "translation": [
+      "translation:entry",
+      "translation:scene",
+      "translation:friction",
+      "translation:action",
+      "translation:outcome",
+      "translation:alternative",
+      "translation:reason",
+      "translation:consider",
+      "translation:alternative-result",
+      "translation:delegated",
+      "translation:delegation-reason",
+      "translation:delegation-outcome",
+      "translation:unconfirmed"
+    ],
+    "cash": [
+      "cash:entry",
+      "cash:scene",
+      "cash:friction",
+      "cash:action",
+      "cash:outcome",
+      "cash:alternative",
+      "cash:reason",
+      "cash:consider",
+      "cash:alternative-result",
+      "cash:delegated",
+      "cash:delegation-reason",
+      "cash:delegation-outcome",
+      "cash:unconfirmed"
+    ],
+    "waste": [
+      "waste:entry",
+      "waste:scene",
+      "waste:friction",
+      "waste:action",
+      "waste:outcome",
+      "waste:alternative",
+      "waste:reason",
+      "waste:consider",
+      "waste:alternative-result",
+      "waste:delegated",
+      "waste:delegation-reason",
+      "waste:delegation-outcome",
+      "waste:unconfirmed"
+    ],
+    "closing": [
+      "closing:check",
+      "closing:priority",
+      "closing:last"
+    ]
+  },
+  "routes": {
+    "opening:intro": [
+      "all"
+    ],
+    "opening:day": [
+      "all"
+    ],
+    "opening:context": [
+      "all"
+    ],
+    "taxi:entry": [
+      "all"
+    ],
+    "taxi:scene": [
+      "used",
+      "attempt"
+    ],
+    "taxi:friction": [
+      "used",
+      "attempt"
+    ],
+    "taxi:action": [
+      "used",
+      "attempt"
+    ],
+    "taxi:outcome": [
+      "used",
+      "attempt"
+    ],
+    "taxi:alternative": [
+      "considered",
+      "unneeded"
+    ],
+    "taxi:reason": [
+      "considered",
+      "unneeded"
+    ],
+    "taxi:consider": [
+      "considered",
+      "unneeded"
+    ],
+    "taxi:alternative-result": [
+      "considered",
+      "unneeded"
+    ],
+    "taxi:delegated": [
+      "delegated"
+    ],
+    "taxi:delegation-reason": [
+      "delegated"
+    ],
+    "taxi:delegation-outcome": [
+      "delegated"
+    ],
+    "taxi:unconfirmed": [
+      "unknown",
+      "declined"
+    ],
+    "translation:entry": [
+      "all"
+    ],
+    "translation:scene": [
+      "used",
+      "attempt"
+    ],
+    "translation:friction": [
+      "used",
+      "attempt"
+    ],
+    "translation:action": [
+      "used",
+      "attempt"
+    ],
+    "translation:outcome": [
+      "used",
+      "attempt"
+    ],
+    "translation:alternative": [
+      "considered",
+      "unneeded"
+    ],
+    "translation:reason": [
+      "considered",
+      "unneeded"
+    ],
+    "translation:consider": [
+      "considered",
+      "unneeded"
+    ],
+    "translation:alternative-result": [
+      "considered",
+      "unneeded"
+    ],
+    "translation:delegated": [
+      "delegated"
+    ],
+    "translation:delegation-reason": [
+      "delegated"
+    ],
+    "translation:delegation-outcome": [
+      "delegated"
+    ],
+    "translation:unconfirmed": [
+      "unknown",
+      "declined"
+    ],
+    "cash:entry": [
+      "all"
+    ],
+    "cash:scene": [
+      "used",
+      "attempt"
+    ],
+    "cash:friction": [
+      "used",
+      "attempt"
+    ],
+    "cash:action": [
+      "used",
+      "attempt"
+    ],
+    "cash:outcome": [
+      "used",
+      "attempt"
+    ],
+    "cash:alternative": [
+      "considered",
+      "unneeded"
+    ],
+    "cash:reason": [
+      "considered",
+      "unneeded"
+    ],
+    "cash:consider": [
+      "considered",
+      "unneeded"
+    ],
+    "cash:alternative-result": [
+      "considered",
+      "unneeded"
+    ],
+    "cash:delegated": [
+      "delegated"
+    ],
+    "cash:delegation-reason": [
+      "delegated"
+    ],
+    "cash:delegation-outcome": [
+      "delegated"
+    ],
+    "cash:unconfirmed": [
+      "unknown",
+      "declined"
+    ],
+    "waste:entry": [
+      "all"
+    ],
+    "waste:scene": [
+      "used",
+      "attempt"
+    ],
+    "waste:friction": [
+      "used",
+      "attempt"
+    ],
+    "waste:action": [
+      "used",
+      "attempt"
+    ],
+    "waste:outcome": [
+      "used",
+      "attempt"
+    ],
+    "waste:alternative": [
+      "considered",
+      "unneeded"
+    ],
+    "waste:reason": [
+      "considered",
+      "unneeded"
+    ],
+    "waste:consider": [
+      "considered",
+      "unneeded"
+    ],
+    "waste:alternative-result": [
+      "considered",
+      "unneeded"
+    ],
+    "waste:delegated": [
+      "delegated"
+    ],
+    "waste:delegation-reason": [
+      "delegated"
+    ],
+    "waste:delegation-outcome": [
+      "delegated"
+    ],
+    "waste:unconfirmed": [
+      "unknown",
+      "declined"
+    ],
+    "closing:check": [
+      "all"
+    ],
+    "closing:priority": [
+      "all"
+    ],
+    "closing:last": [
+      "all"
+    ]
+  },
   "bridges": {
+    "opening": "",
     "taxi": "앞서 나온 장소를 받아주세요. “아까 말씀하신 [장소]에는 어떻게 가셨어요?”",
     "translation": "“그곳에 도착해서는 무엇을 하셨어요?”라는 이야기에서 메뉴·안내·대화 장면을 연결하세요.",
     "cash": "“그렇게 주문하거나 물건을 고르신 뒤, 결제는 어떻게 하셨어요?” 구매 장면이 없으면 최근 구매 경험을 요청하세요.",
-    "waste": "음식·음료 이야기가 나왔다면 “다 드신 뒤 남은 용기나 포장지는 어떻게 하셨어요?”로 연결하세요."
+    "waste": "음식·음료 이야기가 나왔다면 “다 드신 뒤 남은 용기나 포장지는 어떻게 하셨어요?”로 연결하세요.",
+    "closing": ""
   }
 }
