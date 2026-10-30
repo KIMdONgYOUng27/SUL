@@ -1,1 +1,1 @@
-{"name":"sul-interview-notes","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test tests/interview.test.js"}}
+{"name":"sul-interview-notes","version":"1.1.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","build":"node build.mjs","dev":"node dev-server.mjs"}}

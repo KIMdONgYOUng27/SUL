@@ -1,0 +1,457 @@
+{
+  "schema": "sai-questions-v1",
+  "label": "한국 관광 경험 인터뷰",
+  "questions": {
+    "opening:intro": {
+      "ko": "한국을 여행하면서 일상적인 일을 어떻게 경험하셨는지 듣고 싶습니다. 좋았던 경험과 예상과 달랐던 경험 모두 편하게 말씀해주세요.",
+      "en": "I would like to hear about everyday experiences during your trip to Korea, both things that went well and things that differed from your expectations.",
+      "hint": "메모 목적을 알리고, 녹음한다면 별도로 동의를 받으세요. 답변을 원치 않는 질문은 건너뛸 수 있다고 안내합니다.",
+      "probes": []
+    },
+    "opening:day": {
+      "ko": "이번 한국 여행에서 기억에 남는 하루를 떠올려주세요. 그날 어디에 가서 무엇을 하셨는지 편하게 들려주실 수 있나요?",
+      "en": "Think of a memorable day on this trip to Korea. Could you tell me where you went and what you did?",
+      "hint": "하루가 떠오르지 않으면 관광이나 구매 장면 하나로 좁혀주세요.",
+      "probes": [
+        "그날은 누구와 함께 다니셨어요?",
+        "그곳에는 어떤 이유로 가게 되셨어요?",
+        "그중 한 장면을 조금 더 자세히 들어봐도 될까요?"
+      ]
+    },
+    "opening:context": {
+      "ko": "이번에는 얼마나 여행하시고, 주로 누구와 함께 다니고 계세요? 한국어로 안내를 읽거나 대화할 때는 어떠세요?",
+      "en": "How long is this trip, who do you usually travel with, and how comfortable are you reading or speaking Korean?",
+      "hint": "이미 나온 내용은 다시 묻지 않고 기록만 보충합니다.",
+      "probes": []
+    },
+    "taxi:entry": {
+      "ko": "이번 여행에서 주로 어떻게 이동하셨어요? 택시를 이용하거나 이용할지 생각해본 적도 있으세요?",
+      "en": "How have you been getting around on this trip? Have you used or considered a taxi?",
+      "hint": "답변을 들은 뒤 아래에서 경험 상태를 기록하세요.",
+      "probes": []
+    },
+    "taxi:scene": {
+      "ko": "가장 최근 택시를 이용하기로 정한 순간부터 도착할 때까지, 어떻게 하셨는지 들려주세요.",
+      "en": "Tell me about your most recent taxi experience, from deciding to take one to arriving.",
+      "hint": "시도 후 중단했다면 시도한 단계까지만 듣습니다.",
+      "probes": [
+        "차량과 탑승 위치는 어떻게 찾으셨어요?",
+        "목적지는 어떻게 전달하셨어요?",
+        "이동 중 확인하거나 요청한 것이 있었나요?",
+        "요금 확인과 결제는 어떻게 하셨어요?"
+      ]
+    },
+    "taxi:friction": {
+      "ko": "그중 바로 진행하기 어려워 멈추거나, 다른 사람에게 확인한 순간이 있었나요?",
+      "en": "Was there a point when you had to pause or check something with someone?",
+      "hint": "어려움이 없었다면 수월했던 이유를 듣습니다.",
+      "probes": [
+        "구체적으로 어느 순간이었나요?",
+        "무엇을 보고 그렇게 판단하셨어요?",
+        "수월하게 할 수 있었던 건 무엇 덕분이었나요?"
+      ]
+    },
+    "taxi:action": {
+      "ko": "그때는 어떻게 하셨고, 그다음에는 어떤 일이 있었나요?",
+      "en": "What did you do then, and what happened next?",
+      "hint": "도움을 받았다면 누가 무엇을 도왔는지 확인합니다.",
+      "probes": [
+        "다른 방법도 시도하셨나요?",
+        "그 방법을 선택한 이유는 무엇이었나요?"
+      ]
+    },
+    "taxi:outcome": {
+      "ko": "결국 원래 하려던 일은 어떻게 되었나요?",
+      "en": "How did what you originally wanted to do turn out?",
+      "hint": "시간·비용·일정 영향은 실제 답변이 있을 때만 기록합니다.",
+      "probes": [
+        "원래 계획과 달라진 점이 있었나요?",
+        "비슷한 일이 이번 여행에서 또 있었나요?"
+      ]
+    },
+    "taxi:alternative": {
+      "ko": "택시 대신에는 어떤 방법으로 이동하셨어요?",
+      "en": "How did you travel instead of taking a taxi?",
+      "hint": "대체 행동을 먼저 듣고 이유를 확인합니다.",
+      "probes": []
+    },
+    "taxi:reason": {
+      "ko": "그 방법을 선택하신 이유는 무엇이었나요?",
+      "en": "What made you choose that approach?",
+      "hint": "비용·언어 등의 이유를 먼저 제시하지 않습니다.",
+      "probes": [
+        "어떤 정보나 경험을 바탕으로 결정하셨어요?"
+      ]
+    },
+    "taxi:consider": {
+      "ko": "택시 이용에 대해서도 생각해보거나 알아보신 적이 있나요?",
+      "en": "Did you consider or look into taking a taxi?",
+      "hint": "전혀 고려하지 않았다면 이용 장벽이 있었다고 해석하지 않습니다.",
+      "probes": [
+        "어디까지 알아보거나 시도하셨어요?",
+        "망설이게 된 점이 있었나요?"
+      ]
+    },
+    "taxi:alternative-result": {
+      "ko": "선택하신 방법으로 하려던 일을 할 수 있었나요?",
+      "en": "Did the approach you chose let you do what you wanted?",
+      "hint": "불편이 없었다는 답변도 그대로 기록합니다.",
+      "probes": [
+        "그 선택 때문에 달라진 점이 있었나요?"
+      ]
+    },
+    "taxi:delegated": {
+      "ko": "그 과정은 누가 맡아서 해주셨나요? 본인이 직접 하신 부분도 있었나요?",
+      "en": "Who handled it for you? Were there parts you handled yourself?",
+      "hint": "타인의 경험과 참여자 본인의 경험을 구분합니다.",
+      "probes": []
+    },
+    "taxi:delegation-reason": {
+      "ko": "그분이 대신 맡게 된 이유는 무엇이었나요?",
+      "en": "What led to that person handling it?",
+      "hint": "단순 역할 분담인지, 도움 없이는 어려웠는지 답변으로 확인합니다.",
+      "probes": []
+    },
+    "taxi:delegation-outcome": {
+      "ko": "그 방식으로 하려던 일을 할 수 있었나요?",
+      "en": "Did that arrangement let you do what you wanted?",
+      "hint": "도움을 받았다는 이유만으로 불편으로 분류하지 않습니다.",
+      "probes": []
+    },
+    "taxi:unconfirmed": {
+      "ko": "괜찮습니다. 이 이야기는 넘어가고 다른 경험을 들어볼게요.",
+      "en": "That is fine. Let us move on to another experience.",
+      "hint": "기억나지 않음·답변 거절을 불편 없음과 구분해 기록합니다.",
+      "probes": []
+    },
+    "translation:entry": {
+      "ko": "메뉴나 안내를 이해하거나, 다른 사람에게 원하는 것을 전달할 때는 어떻게 하셨어요?",
+      "en": "How did you understand menus or instructions, or communicate what you wanted?",
+      "hint": "번역 앱을 사용했다고 전제하지 않습니다. 사용 여부와 대체 방법을 듣습니다.",
+      "probes": []
+    },
+    "translation:scene": {
+      "ko": "번역을 사용하려던 장면 하나를 골라, 무엇을 이해하거나 전달하려고 했는지 말씀해주세요.",
+      "en": "Tell me about one time you tried to use translation. What were you trying to understand or communicate?",
+      "hint": "오류가 확인된 것과 정확한지 몰라 불안했던 것을 구분합니다.",
+      "probes": [
+        "어떤 서비스나 기능을 사용하셨어요?",
+        "결과를 보고 어떤 뜻이라고 이해하셨어요?",
+        "그대로 진행할 수 있었나요, 더 확인해야 했나요?",
+        "나중에 뜻이 다르다는 것을 확인했나요, 끝까지 확신하기 어려웠나요?"
+      ]
+    },
+    "translation:friction": {
+      "ko": "그중 바로 진행하기 어려워 멈추거나, 다른 사람에게 확인한 순간이 있었나요?",
+      "en": "Was there a point when you had to pause or check something with someone?",
+      "hint": "어려움이 없었다면 수월했던 이유를 듣습니다.",
+      "probes": [
+        "구체적으로 어느 순간이었나요?",
+        "무엇을 보고 그렇게 판단하셨어요?",
+        "수월하게 할 수 있었던 건 무엇 덕분이었나요?"
+      ]
+    },
+    "translation:action": {
+      "ko": "그때는 어떻게 하셨고, 그다음에는 어떤 일이 있었나요?",
+      "en": "What did you do then, and what happened next?",
+      "hint": "도움을 받았다면 누가 무엇을 도왔는지 확인합니다.",
+      "probes": [
+        "다른 방법도 시도하셨나요?",
+        "그 방법을 선택한 이유는 무엇이었나요?"
+      ]
+    },
+    "translation:outcome": {
+      "ko": "결국 원래 하려던 일은 어떻게 되었나요?",
+      "en": "How did what you originally wanted to do turn out?",
+      "hint": "시간·비용·일정 영향은 실제 답변이 있을 때만 기록합니다.",
+      "probes": [
+        "원래 계획과 달라진 점이 있었나요?",
+        "비슷한 일이 이번 여행에서 또 있었나요?"
+      ]
+    },
+    "translation:alternative": {
+      "ko": "번역 서비스를 쓰지 않고 내용을 이해하거나 전달할 때는 어떻게 하셨어요?",
+      "en": "How did you understand or communicate without a translation service?",
+      "hint": "대체 행동을 먼저 듣고 이유를 확인합니다.",
+      "probes": []
+    },
+    "translation:reason": {
+      "ko": "그 방법을 선택하신 이유는 무엇이었나요?",
+      "en": "What made you choose that approach?",
+      "hint": "비용·언어 등의 이유를 먼저 제시하지 않습니다.",
+      "probes": [
+        "어떤 정보나 경험을 바탕으로 결정하셨어요?"
+      ]
+    },
+    "translation:consider": {
+      "ko": "번역 서비스 이용에 대해서도 생각해보거나 알아보신 적이 있나요?",
+      "en": "Did you consider or look into using a translation service?",
+      "hint": "전혀 고려하지 않았다면 이용 장벽이 있었다고 해석하지 않습니다.",
+      "probes": [
+        "어디까지 알아보거나 시도하셨어요?",
+        "망설이게 된 점이 있었나요?"
+      ]
+    },
+    "translation:alternative-result": {
+      "ko": "선택하신 방법으로 하려던 일을 할 수 있었나요?",
+      "en": "Did the approach you chose let you do what you wanted?",
+      "hint": "불편이 없었다는 답변도 그대로 기록합니다.",
+      "probes": [
+        "그 선택 때문에 달라진 점이 있었나요?"
+      ]
+    },
+    "translation:delegated": {
+      "ko": "그 과정은 누가 맡아서 해주셨나요? 본인이 직접 하신 부분도 있었나요?",
+      "en": "Who handled it for you? Were there parts you handled yourself?",
+      "hint": "타인의 경험과 참여자 본인의 경험을 구분합니다.",
+      "probes": []
+    },
+    "translation:delegation-reason": {
+      "ko": "그분이 대신 맡게 된 이유는 무엇이었나요?",
+      "en": "What led to that person handling it?",
+      "hint": "단순 역할 분담인지, 도움 없이는 어려웠는지 답변으로 확인합니다.",
+      "probes": []
+    },
+    "translation:delegation-outcome": {
+      "ko": "그 방식으로 하려던 일을 할 수 있었나요?",
+      "en": "Did that arrangement let you do what you wanted?",
+      "hint": "도움을 받았다는 이유만으로 불편으로 분류하지 않습니다.",
+      "probes": []
+    },
+    "translation:unconfirmed": {
+      "ko": "괜찮습니다. 이 이야기는 넘어가고 다른 경험을 들어볼게요.",
+      "en": "That is fine. Let us move on to another experience.",
+      "hint": "기억나지 않음·답변 거절을 불편 없음과 구분해 기록합니다.",
+      "probes": []
+    },
+    "cash:entry": {
+      "ko": "이번 여행에서는 주로 어떻게 결제하셨어요? 현금을 사용하거나 마련하려던 경험도 있으세요?",
+      "en": "How have you usually paid on this trip? Have you used or tried to obtain cash?",
+      "hint": "전통시장에서 현금만 받는다고 가정하지 않습니다.",
+      "probes": []
+    },
+    "cash:scene": {
+      "ko": "가장 최근 현금을 사용하거나 마련하려던 상황을 처음부터 이야기해주세요.",
+      "en": "Tell me about the most recent time you used or tried to obtain cash.",
+      "hint": "결제에서 현금 준비·환전 과정으로 자연스럽게 거슬러 올라갑니다.",
+      "probes": [
+        "처음 쓰려던 결제 방법은 무엇이었나요?",
+        "가능한 결제 방법은 어떻게 확인하셨어요?",
+        "현금이 필요하다는 것은 언제 알게 되셨어요?",
+        "현금은 언제 어디서 마련하셨나요?",
+        "장소와 금액은 어떤 기준으로 정하셨어요?",
+        "환율이나 수수료에서 확인해야 할 부분이 있었나요?"
+      ]
+    },
+    "cash:friction": {
+      "ko": "그중 바로 진행하기 어려워 멈추거나, 다른 사람에게 확인한 순간이 있었나요?",
+      "en": "Was there a point when you had to pause or check something with someone?",
+      "hint": "어려움이 없었다면 수월했던 이유를 듣습니다.",
+      "probes": [
+        "구체적으로 어느 순간이었나요?",
+        "무엇을 보고 그렇게 판단하셨어요?",
+        "수월하게 할 수 있었던 건 무엇 덕분이었나요?"
+      ]
+    },
+    "cash:action": {
+      "ko": "그때는 어떻게 하셨고, 그다음에는 어떤 일이 있었나요?",
+      "en": "What did you do then, and what happened next?",
+      "hint": "도움을 받았다면 누가 무엇을 도왔는지 확인합니다.",
+      "probes": [
+        "다른 방법도 시도하셨나요?",
+        "그 방법을 선택한 이유는 무엇이었나요?"
+      ]
+    },
+    "cash:outcome": {
+      "ko": "결국 원래 하려던 일은 어떻게 되었나요?",
+      "en": "How did what you originally wanted to do turn out?",
+      "hint": "시간·비용·일정 영향은 실제 답변이 있을 때만 기록합니다.",
+      "probes": [
+        "원래 계획과 달라진 점이 있었나요?",
+        "비슷한 일이 이번 여행에서 또 있었나요?"
+      ]
+    },
+    "cash:alternative": {
+      "ko": "현금을 사용하거나 마련하지 않고 결제는 어떻게 하셨어요?",
+      "en": "How did you pay without using or obtaining cash?",
+      "hint": "대체 행동을 먼저 듣고 이유를 확인합니다.",
+      "probes": []
+    },
+    "cash:reason": {
+      "ko": "그 방법을 선택하신 이유는 무엇이었나요?",
+      "en": "What made you choose that approach?",
+      "hint": "비용·언어 등의 이유를 먼저 제시하지 않습니다.",
+      "probes": [
+        "어떤 정보나 경험을 바탕으로 결정하셨어요?"
+      ]
+    },
+    "cash:consider": {
+      "ko": "현금 사용이나 환전·인출에 대해서도 생각해보거나 알아보신 적이 있나요?",
+      "en": "Did you consider or look into using, exchanging or withdrawing cash?",
+      "hint": "전혀 고려하지 않았다면 이용 장벽이 있었다고 해석하지 않습니다.",
+      "probes": [
+        "어디까지 알아보거나 시도하셨어요?",
+        "망설이게 된 점이 있었나요?"
+      ]
+    },
+    "cash:alternative-result": {
+      "ko": "선택하신 방법으로 하려던 일을 할 수 있었나요?",
+      "en": "Did the approach you chose let you do what you wanted?",
+      "hint": "불편이 없었다는 답변도 그대로 기록합니다.",
+      "probes": [
+        "그 선택 때문에 달라진 점이 있었나요?"
+      ]
+    },
+    "cash:delegated": {
+      "ko": "그 과정은 누가 맡아서 해주셨나요? 본인이 직접 하신 부분도 있었나요?",
+      "en": "Who handled it for you? Were there parts you handled yourself?",
+      "hint": "타인의 경험과 참여자 본인의 경험을 구분합니다.",
+      "probes": []
+    },
+    "cash:delegation-reason": {
+      "ko": "그분이 대신 맡게 된 이유는 무엇이었나요?",
+      "en": "What led to that person handling it?",
+      "hint": "단순 역할 분담인지, 도움 없이는 어려웠는지 답변으로 확인합니다.",
+      "probes": []
+    },
+    "cash:delegation-outcome": {
+      "ko": "그 방식으로 하려던 일을 할 수 있었나요?",
+      "en": "Did that arrangement let you do what you wanted?",
+      "hint": "도움을 받았다는 이유만으로 불편으로 분류하지 않습니다.",
+      "probes": []
+    },
+    "cash:unconfirmed": {
+      "ko": "괜찮습니다. 이 이야기는 넘어가고 다른 경험을 들어볼게요.",
+      "en": "That is fine. Let us move on to another experience.",
+      "hint": "기억나지 않음·답변 거절을 불편 없음과 구분해 기록합니다.",
+      "probes": []
+    },
+    "waste:entry": {
+      "ko": "이번 여행에서 생긴 포장지나 빈 용기는 보통 어떻게 처리하셨어요?",
+      "en": "How have you usually dealt with wrappers or empty containers on this trip?",
+      "hint": "쓰레기가 없었거나 동행인이 처리한 경우도 구분합니다.",
+      "probes": []
+    },
+    "waste:scene": {
+      "ko": "가장 최근 쓰레기를 처리하려던 상황에서, 무엇을 어떻게 하셨는지 들려주세요.",
+      "en": "Tell me about the most recent time you tried to dispose of waste. What did you do?",
+      "hint": "들고 다녔다는 사실만으로 불편했다고 판단하지 않습니다.",
+      "probes": [
+        "버릴 장소는 어떻게 찾으셨어요?",
+        "어떻게 버릴지는 무엇을 보고 판단하셨어요?",
+        "남은 음료·음식물이나 분리배출은 어떻게 하셨어요?",
+        "처리한 뒤 제대로 했다는 확신이 드셨나요?"
+      ]
+    },
+    "waste:friction": {
+      "ko": "그중 바로 진행하기 어려워 멈추거나, 다른 사람에게 확인한 순간이 있었나요?",
+      "en": "Was there a point when you had to pause or check something with someone?",
+      "hint": "어려움이 없었다면 수월했던 이유를 듣습니다.",
+      "probes": [
+        "구체적으로 어느 순간이었나요?",
+        "무엇을 보고 그렇게 판단하셨어요?",
+        "수월하게 할 수 있었던 건 무엇 덕분이었나요?"
+      ]
+    },
+    "waste:action": {
+      "ko": "그때는 어떻게 하셨고, 그다음에는 어떤 일이 있었나요?",
+      "en": "What did you do then, and what happened next?",
+      "hint": "도움을 받았다면 누가 무엇을 도왔는지 확인합니다.",
+      "probes": [
+        "다른 방법도 시도하셨나요?",
+        "그 방법을 선택한 이유는 무엇이었나요?"
+      ]
+    },
+    "waste:outcome": {
+      "ko": "결국 원래 하려던 일은 어떻게 되었나요?",
+      "en": "How did what you originally wanted to do turn out?",
+      "hint": "시간·비용·일정 영향은 실제 답변이 있을 때만 기록합니다.",
+      "probes": [
+        "원래 계획과 달라진 점이 있었나요?",
+        "비슷한 일이 이번 여행에서 또 있었나요?"
+      ]
+    },
+    "waste:alternative": {
+      "ko": "직접 쓰레기를 처리할 일이 없었던 상황을 조금 더 설명해주실 수 있나요?",
+      "en": "Could you tell me more about why you did not need to dispose of waste yourself?",
+      "hint": "대체 행동을 먼저 듣고 이유를 확인합니다.",
+      "probes": []
+    },
+    "waste:reason": {
+      "ko": "그 방법을 선택하신 이유는 무엇이었나요?",
+      "en": "What made you choose that approach?",
+      "hint": "비용·언어 등의 이유를 먼저 제시하지 않습니다.",
+      "probes": [
+        "어떤 정보나 경험을 바탕으로 결정하셨어요?"
+      ]
+    },
+    "waste:consider": {
+      "ko": "여행 중 쓰레기 처리 방법에 대해서도 생각해보거나 알아보신 적이 있나요?",
+      "en": "Did you consider or look into ways of disposing of waste during the trip?",
+      "hint": "전혀 고려하지 않았다면 이용 장벽이 있었다고 해석하지 않습니다.",
+      "probes": [
+        "어디까지 알아보거나 시도하셨어요?",
+        "망설이게 된 점이 있었나요?"
+      ]
+    },
+    "waste:alternative-result": {
+      "ko": "선택하신 방법으로 하려던 일을 할 수 있었나요?",
+      "en": "Did the approach you chose let you do what you wanted?",
+      "hint": "불편이 없었다는 답변도 그대로 기록합니다.",
+      "probes": [
+        "그 선택 때문에 달라진 점이 있었나요?"
+      ]
+    },
+    "waste:delegated": {
+      "ko": "그 과정은 누가 맡아서 해주셨나요? 본인이 직접 하신 부분도 있었나요?",
+      "en": "Who handled it for you? Were there parts you handled yourself?",
+      "hint": "타인의 경험과 참여자 본인의 경험을 구분합니다.",
+      "probes": []
+    },
+    "waste:delegation-reason": {
+      "ko": "그분이 대신 맡게 된 이유는 무엇이었나요?",
+      "en": "What led to that person handling it?",
+      "hint": "단순 역할 분담인지, 도움 없이는 어려웠는지 답변으로 확인합니다.",
+      "probes": []
+    },
+    "waste:delegation-outcome": {
+      "ko": "그 방식으로 하려던 일을 할 수 있었나요?",
+      "en": "Did that arrangement let you do what you wanted?",
+      "hint": "도움을 받았다는 이유만으로 불편으로 분류하지 않습니다.",
+      "probes": []
+    },
+    "waste:unconfirmed": {
+      "ko": "괜찮습니다. 이 이야기는 넘어가고 다른 경험을 들어볼게요.",
+      "en": "That is fine. Let us move on to another experience.",
+      "hint": "기억나지 않음·답변 거절을 불편 없음과 구분해 기록합니다.",
+      "probes": []
+    },
+    "closing:check": {
+      "ko": "제가 이해한 바로는 [상황]에서 [일어난 일]이 있었고, 그래서 [행동·결과]가 있었다는 말씀이시죠? 다르게 이해한 부분이 있을까요?",
+      "en": "My understanding is that [event] happened in [situation], and you [action/result]. Have I understood correctly?",
+      "hint": "오른쪽 기록이나 요약을 참고해 실제 발언만 되짚습니다.",
+      "probes": []
+    },
+    "closing:priority": {
+      "ko": "오늘 이야기한 경험 중 다음 한국 여행에서는 가장 달라졌으면 하는 순간이 있나요?",
+      "en": "Of the experiences we discussed, is there a moment you would most like to be different on your next trip?",
+      "hint": "없다면 그대로 기록합니다.",
+      "probes": [
+        "그 순간을 고르신 이유는 무엇인가요?",
+        "그때 무엇이 달라지면 좋을까요?"
+      ]
+    },
+    "closing:last": {
+      "ko": "제가 놓쳤거나 더 남기고 싶은 이야기가 있으신가요? 직접 겪으신 이야기를 들려주셔서 감사합니다.",
+      "en": "Is there anything I missed or anything else you would like to add? Thank you for sharing your experiences.",
+      "hint": "답변을 확인한 뒤 인터뷰 완료를 누르세요.",
+      "probes": []
+    }
+  },
+  "bridges": {
+    "taxi": "앞서 나온 장소를 받아주세요. “아까 말씀하신 [장소]에는 어떻게 가셨어요?”",
+    "translation": "“그곳에 도착해서는 무엇을 하셨어요?”라는 이야기에서 메뉴·안내·대화 장면을 연결하세요.",
+    "cash": "“그렇게 주문하거나 물건을 고르신 뒤, 결제는 어떻게 하셨어요?” 구매 장면이 없으면 최근 구매 경험을 요청하세요.",
+    "waste": "음식·음료 이야기가 나왔다면 “다 드신 뒤 남은 용기나 포장지는 어떻게 하셨어요?”로 연결하세요."
+  }
+}

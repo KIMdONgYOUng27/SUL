@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {prompts,sections,statuses,newSession,validateBackup,csvCell} from '../interview-model.js';
+import {prompts,sections,statuses,newSession,validateBackup,csvCell} from '../interview-model.js?v=2';
 test('nonuse asks alternative, reason and consideration for all four topics',()=>{for(const section of sections.slice(1,-1))for(const status of ['considered','unneeded']){const q=prompts(section.id,status);assert.deepEqual(q.map(x=>x.id),['entry','alternative','reason','consider','alternative-result']);assert.ok(!q.some(x=>x.id==='friction'));}});
 test('attempted use preserves the actual experience path',()=>assert.deepEqual(prompts('taxi','attempt').map(x=>x.id),['entry','scene','friction','action','outcome']));
 test('delegated work asks why and who without inventing personal use',()=>assert.deepEqual(prompts('cash','delegated').map(x=>x.id),['entry','delegated','delegation-reason','delegation-outcome']));
